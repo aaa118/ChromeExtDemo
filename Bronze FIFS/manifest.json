@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Bronze FIFS",
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://www.easports.com/fifa/*"
+			],
+			"js": ["content.js"]
+		}
+	]
+}
